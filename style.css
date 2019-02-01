@@ -1,0 +1,17 @@
+<style>
+h1 {
+    border-bottom:8px solid blueviolet;
+    padding:20px
+}
+ol {
+    border-right:8px solid lightskyblue;
+    width:100px
+}
+div {   
+    border:20px solid lightgreen;
+}   
+#movie{    
+    display:grid;   
+    border-color: lightpink;    
+    grid-template-columns: 200px 3fr 3fr;
+</style>

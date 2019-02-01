@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>  
+    <title>Euniverse</title>    
+    <meta charset="utf8"> 
+    <link rel="stylesheet" href="style.css">
+ 
+</head> 
+
+<body>
+    <h1><a href="3.html">Euniverse</h1>
+    <div id="movie">
+      <ol>
+         <li><a href="https://goop.com/style/" target="_blank">Style</a></li>
+         <li><a href="https://goop.com/beauty/" target="_blank">Beuty</a></li>
+         <li><a href="https://goop.com/food/" target="_blank">Food</a></li>
+         <li><a href="https://goop.com/style/decorating-design/" target="_blank">Interior</a></li>
+         <li><a href="https://goop.com/style/decorating-design/decorating-with-contemporary-art/" target="_blank">Art</a></li>
+         <li><a href="4.html">Journal</a></li>
+         <li><a href="5.html">Event</a></li>
+         <li><a href="6.html">Photo/Video</a></li>
+         <li><a href="8.html">Web hosting</a></li>
+      </ol>
+
+<div>   
+     <input id="day_night" type="button" value="night" onclick="
+         var body = document.querySelector('body');
+         if(this.value === 'night') {
+            body. style.backgroundColor = '#ccccff';    
+            body. style.color = 'black';    
+            this.value = 'day';
+         }else {
+            body.style.backgroundColor = '#ffffff';
+            body.style.color = 'black';
+            this.value = 'night';   
+         }  
+     ">
+
+
+     <input type="button" value="night" onclick="
+         var body = document.querySelector('body'); 
+         body. style.backgroundColor = '#ccccff';    
+         body. style.color = 'black';
+     ">
+     <input type="button" value="day" onclick="
+         var body = document.querySelector('body');
+         body. style.backgroundColor = '#ffffff';    
+         body. style.color = 'black';
+     ">
+
+     <div><h2>Journal</h2></div>
+     <div>Journal is <u>what<strong>you are feeling</strong> about</u> your life.</div>
+     <div>Journal is not about what you are doing.</div>
+<img src="image.jpg" width="50%">
+<img src="https://source.unsplash.com/1600x900/?happy" width="50%">
+<img src="https://source.unsplash.com/random" width="50%">
+</div>
+</div>
+
+<script>        
+    var body = document.querySelector('body');
+    body.style.backgroundColor = '#99ccff';
+    body.style.color = 'black';
+</script>
+
+</body>
+
+</html>
